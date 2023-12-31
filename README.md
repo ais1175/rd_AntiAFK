@@ -7,7 +7,7 @@ Simple, but easy script to keep your server alive without afkers!
 - Discord Logs
 
 # WIKI
-https://nwrp.gitbook.io/respect-development/free-script/anti-afk
+- https://nwrp.gitbook.io/respect-development/free-script/anti-afk
 
 # DISCORD FOR SUPPORT
 - https://discord.gg/zyMrgxtBtM
