@@ -11,3 +11,7 @@ Simple, but easy script to keep your server alive without afkers!
 
 # DISCORD FOR SUPPORT
 - https://discord.gg/zyMrgxtBtM
+
+# DISCORD LOGS SHOWCASE
+![image](https://github.com/respectdevelopment/rd_AntiAFK/assets/143709835/367e0255-0a04-4bc4-b00c-ede9737585e2)
+
