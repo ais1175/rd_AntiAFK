@@ -2,7 +2,7 @@ Logs = {}
 
 Logs.DiscordLogs = {
 
-    Enabled = true,
+    Enabled = false,
 
     -- Config is in server side, cheater doesnt dump it!
     Webhook = "https://ptb.discord.com/api/webhooks/1190863807883518082/ROsb9mbXx-naZayVV9NdlYyK6VgUo7WUoI9-IQXhbDLRvMBVy7TlU2n-48PCF-0T8eob",
