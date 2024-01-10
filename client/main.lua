@@ -1,7 +1,7 @@
 Citizen.CreateThread(function()
 	while true do
 		Wait(1000)
-		Player = PlayerId()
+		Player = PlayerPedId()
 		if Player then
 			Position = GetEntityCoords(Player, true)
 			if LastPosition and Position == LastPosition then
