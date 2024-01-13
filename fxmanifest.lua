@@ -5,7 +5,7 @@ game 'gta5'
 -- {{Resource Information}} --
 author 'Respect Development'
 description 'Anti AFK'
-version '1.1'
+version '1.3'
 
 -- {{Manifest}} --
 lua54 'yes'
@@ -17,11 +17,12 @@ shared_scripts {
 
 client_scripts {
     '@es_extended/locale.lua',
-    'client/main.lua',
     'locales/*.lua',
+    'client/main.lua',
 }
 
 server_scripts {
+    '@es_extended/locale.lua',
     'server/main.lua',
     'server/updater.lua',
 }

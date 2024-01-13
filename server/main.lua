@@ -25,7 +25,7 @@ AddEventHandler('RespectDevelopment:afk:kick', function()
         if not Config.ByPass.IdentifierByPass.CharIDidentifier[xPlayer.getIdentifier(source, 0)] then
             if not Config.ByPass.IdentifierByPass.LicenceIdentifier[license] then
                 if not Config.ByPass.IdentifierByPass.DiscordIdentifier[discord] then
-                    DropPlayer(source, Config.KickMessage)
+                    DropPlayer(source, TranslateCap('Kick_Message'))
 
                     if Config.DiscordLogs.Enable then         
                         local date = os.date('%H:%M - %d/%m/%Y')

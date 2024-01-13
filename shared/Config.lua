@@ -1,7 +1,7 @@
 Config = {
     
     Locale = GetConvar('esx:locale', 'en'), -- en = english / cz = czech
-    TimeHowMuchPlayerCanBeAFK = 1800, -- (In Seconds)
+    TimeHowMuchPlayerCanBeAFK = 5, -- (In Seconds)
     KickWarning = true,
     Notification = "ESX", -- ESX, OKOK, OXLIB (CHECK THE FXMANIFEST.LUA), Custom
 
