@@ -5,7 +5,6 @@ Citizen.CreateThread(function()
 		if Player then
 			Position = GetEntityCoords(Player, true)
 			local x = GetControlNormal(0, 239)
-			print(Position, x)
 			if LastPosition and Position == LastPosition or lastx and x == lastx then
 				if Time > 0 then
 				    if Config.KickWarning and Time == math.ceil(Config.TimeHowMuchPlayerCanBeAFK / 4) then
